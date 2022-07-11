@@ -1,0 +1,106 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--margin-from-navbar);
+  margin-bottom: var(--margin-bottom-one);
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.contact-container > p {
+  font-size: var(--font-size-heading-one);
+  color: var(--font-color-two);
+  margin-bottom: 20px;
+}
+
+.contact-container label {
+  font-weight: 600;
+}
+
+.contact-input {
+  display: block;
+  width: 24rem;
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-message {
+  height: 10rem;
+}
+
+.contact-send-btn {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  margin-top: 1.0rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--font-color-two);
+  cursor: pointer;
+  transition: position 0.4s ease;
+}
+
+.contact-send-btn:hover {
+  background-color: rgb(11, 139, 182);;
+}
+
+.contact-send-btn:active {
+  background-color: rgb(11, 139, 182);
+  box-shadow: 0 4px #666;
+  transform: translateY(3px);
+}
+
+.LinkedIn-whatsapp {
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-btn {
+  font-size: 40px;
+  background: none;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .contact-container {
+    width: 90%;
+  }
+
+  .contact-container > p {
+    font-size: var(--font-size-heading-three);
+    margin-bottom: var(--margin-bottom-two);
+  }
+
+  .contact-container form {
+    /* border: 2px solid #000;
+    border-radius: 1.5rem;
+    padding: 1.5rem 4rem; */
+  }
+
+  hr {
+    display: none;
+  }
+
+  .LinkedIn-whatsapp {
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .contact-btn {
+    margin: 0 3rem 0 3rem;
+  }
+}
+
+
+

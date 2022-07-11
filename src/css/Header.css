@@ -1,0 +1,117 @@
+.nav {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1000;
+}
+
+.nav-container {
+  width: 100%;
+}
+
+.image-hamburger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem 0.5rem;
+}
+
+.photo-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.my-picture {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.hamburger-times {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.show-times {
+  z-index: 1000;
+  color: #fff;
+}
+
+.links {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 900%;
+  background: darkslategray;
+  transition: width 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.no-links {
+  width: 0%;
+  overflow: hidden;
+}
+
+.link-container {
+  padding: 3rem 2rem;
+}
+
+.link {
+  display: block;
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: darkgray;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger-times {
+    display: none;
+  }
+
+  .links {
+    position: relative;
+    width: initial;
+    height: 0%;
+    background: none;
+  }
+
+  .no-links {
+    display: block;
+    overflow: visible;
+  }
+
+  .link-container {
+    padding: 0;
+  }
+
+  .link {
+    display: inline-block;
+    margin-right: 2.0rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(5, 43, 43);
+  }
+
+  .link:hover {
+    color: gray;
+  }
+}
+

@@ -1,0 +1,21 @@
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+  height: 4rem;
+  background-color: lightblue;
+  opacity: 0.7;
+  /* margin: 0 auto; */
+  position: absolute;
+  top: 5.5rem;
+  left: 2%;
+}
+
+.message p {
+  
+}
+
+.no-message {
+  display: none;
+}

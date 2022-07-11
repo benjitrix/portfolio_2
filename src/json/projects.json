@@ -1,0 +1,33 @@
+[
+  { "id": "commerce-1",
+    "image": "./assets/real-estate.jpg",
+    "app-link": "",
+    "appBtn": "Real Estate",
+    "git-link": "",
+    "description": "A MERN stack app that allows users to create profiles for real estate they wish to sell or select one they wish to buy. All CRUD operations exist for estates created by a user while only Read operation for those created by another user. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
+  },
+  { 
+    "id":"utility-1",
+    "image": "./assets/reservation.webp",
+    "app-link": "",
+    "appBtn": "Reservation",
+    "git-link": "",
+    "description": "A MERN stack app that allows users reserve a seat in a concert hall. User can select desired seat from a matrix display of seats and receive confrmation via email. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
+  },
+  {
+    "id": "commerce-2",
+    "image": "./assets/car-rental.jpg",
+    "app-link": "",
+    "appBtn": "Car Rental",
+    "git-link": "",
+    "description": "A MERN stack app that allows users to rent one or more vehicles for a specified period. User can also delete or update reserved vehicles. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
+  },
+  {
+    "id": "commerce-3",
+    "image": "./assets/event.jpg",
+    "app-link": "",
+    "appBtn": "Event",
+    "git-link": "",
+    "description": "A MERN stack app that allows users to create profiles for real estate they wish to sell or select one they wish to buy. All CRUD operations exist for estates created by a user while only Read operation for those created by another user. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
+  }
+]

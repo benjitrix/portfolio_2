@@ -1,0 +1,10 @@
+[
+  { 
+    "id":"utility-1",
+    "image": "./assets/reservation.webp",
+    "app-link": "",
+    "appBtn": "Reservation",
+    "git-link": "",
+    "description": "A MERN stack app that allows users reserve a seat in a concert hall. User can select desired seat from a matrix display of seats and receive confrmation via email. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
+  }
+]
