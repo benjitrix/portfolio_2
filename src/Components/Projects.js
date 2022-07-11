@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import commerce from '../json/commerce'
 import utility from '../json/utility.json'
 import projects from '../json/projects.json'

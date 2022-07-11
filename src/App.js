@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Header from './Components/Header';
 import Landing from './Components/Landing'
 import About from './Components/About'
 import Projects from './Components/Projects'
