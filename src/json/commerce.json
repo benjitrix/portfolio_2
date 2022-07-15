@@ -1,25 +1,25 @@
 [
   { "id": "commerce-1",
     "image": "./assets/real-estate.jpg",
-    "app-link": "",
+    "app-link": "https://real-estate-mern-stack-app.netlify.app",
     "appBtn": "Real Estate",
-    "git-link": "",
+    "git-link": "https://github.com/benjitrix/real-estate-mern",
     "description": "A MERN stack app that allows users to create profiles for real estate they wish to sell or select one they wish to buy. All CRUD operations exist for estates created by a user while only Read operation for those created by another user. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
   },
   {
     "id": "commerce-2",
     "image": "./assets/car-rental.jpg",
-    "app-link": "",
+    "app-link": "https://car-rental-mern.netlify.app",
     "appBtn": "Car Rental",
-    "git-link": "",
+    "git-link": "https://github.com/benjitrix/car-rental-mern",
     "description": "A MERN stack app that allows users to rent one or more vehicles for a specified period. User can also delete or update reserved vehicles. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
   },
   {
     "id": "commerce-3",
     "image": "./assets/event.jpg",
-    "app-link": "",
+    "app-link": "https://events-mern-app.netlify.app",
     "appBtn": "Event",
-    "git-link": "",
+    "git-link": "https://github.com/benjitrix/events-mern",
     "description": "A MERN stack app that allows users to create profiles for real estate they wish to sell or select one they wish to buy. All CRUD operations exist for estates created by a user while only Read operation for those created by another user. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
   }
 ]

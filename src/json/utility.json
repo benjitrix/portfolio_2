@@ -2,9 +2,9 @@
   { 
     "id":"utility-1",
     "image": "./assets/reservation.webp",
-    "app-link": "",
+    "app-link": "https://reservation-mern.netlify.app/",
     "appBtn": "Reservation",
-    "git-link": "",
+    "git-link": "https://github.com/benjitrix/reservation-mern",
     "description": "A MERN stack app that allows users reserve a seat in a concert hall. User can select desired seat from a matrix display of seats and receive confrmation via email. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
   }
 ]

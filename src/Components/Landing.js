@@ -1,5 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from 'react-icons/fa'
 import '../css/Landing.css'
 
 const Landing = () => {
