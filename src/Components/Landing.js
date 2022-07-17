@@ -16,7 +16,7 @@ const Landing = () => {
         <div className='bottom-landing'>
           <div className='bottom-landing-content'>
             <p>I'm ready to work</p>
-            <i class="fa fa-long-arrow-right fa_custom fa-2x"></i>
+            <i className="fa fa-long-arrow-right fa_custom fa-2x"></i>
           </div>
         </div>
       </div>

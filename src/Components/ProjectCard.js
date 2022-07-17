@@ -9,8 +9,20 @@ const ProjectCard = ({props, showDesc, nos}) => {
     <div className='project-card'>
       <img src={image} alt="" className='project-image' />
       <div className="app-links">
-        <a href="" className='app-link'>{appBtn} App</a>
-        <a href="" className='git-link'>Git Repo</a>
+        <a 
+          href={appLink} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className='app-link'>
+            {appBtn} App
+        </a>
+        <a 
+          href={gitLink} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className='git-link'>
+            Git Repo
+        </a>
       </div>
       <div className="description-container">
         <p className="description">
