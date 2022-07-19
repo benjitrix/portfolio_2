@@ -57,12 +57,6 @@
   margin-right: 20px;
 }
 
-#arrow-right {
-  width: 4rem;
-  color: red;
-  font-stretch: ultra-condensed;
-}
-
 @media screen and (min-width: 800px) {
   .mid-landing {
     margin: 22vh 0 22vh 0;
@@ -85,6 +79,6 @@
   }
 
   .bottom-landing-content {
-    width: 22vw;
+    width: 17vw;
   }
 }

@@ -1,9 +1,9 @@
 [
   { "id": "commerce-1",
     "image": "./assets/real-estate.jpg",
-    "appLink": "https://real-estate-mern-stack-app.netlify.app",
+    "appLink": "https://real-estate-mern.netlify.app",
     "appBtn": "Real Estate",
-    "gitLink": "https://github.com/benjitrix/real-estate-mern",
+    "gitLink": "https://github.com/benjitrix/real-estate-frontend",
     "description": "A MERN stack app that allows users to create profiles for real estate they wish to sell or select one they wish to buy. All CRUD operations exist for estates created by a user while only Read operation for those created by another user. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
   },
   { 
