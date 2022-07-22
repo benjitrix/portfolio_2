@@ -17,7 +17,7 @@
   {
     "id": "commerce-3",
     "image": "./assets/event.jpg",
-    "appLink": "https://events-mern-app.netlify.app",
+    "appLink": "https://events-mern.netlify.app",
     "appBtn": "Event",
     "gitLink": "https://github.com/benjitrix/events-mern",
     "description": "A MERN stack app that allows users to create profiles for real estate they wish to sell or select one they wish to buy. All CRUD operations exist for estates created by a user while only Read operation for those created by another user. An admin section with CRUD operations is included. Admin also has CRUD rights over all user-created content."
